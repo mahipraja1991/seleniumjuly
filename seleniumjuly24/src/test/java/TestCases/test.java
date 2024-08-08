@@ -19,7 +19,7 @@ import Pages.productsPage;
 
 public class test extends baseTest {
 	
-	@Test
+	@Test       // Testcase1
 	public void shopping() {
 		loginPage lp = new loginPage(driver);
 		productsPage pp = new productsPage(driver);
